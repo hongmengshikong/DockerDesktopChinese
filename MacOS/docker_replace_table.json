@@ -1,0 +1,508 @@
+{
+    "replacements": [
+        {
+            "original": "children:\"These settings are provided for environments with elevated security requirements, such as where local administrative access is prohibited. Changing these options can result in limited functionality or broken integration with other tools.\"", 
+            "replacement": "children:\"这些设置是为具有更高安全要求的环境提供的，例如禁止本地管理访问的环境。更改这些选项可能会导致功能受限或与其他工具的集成中断。\""
+        },
+        {
+            "original": "children:\"Only images and containers in the active image store are visible. All your other containers and images still exist. To see them again, turn off this feature by going to Settings.\"",
+            "replacement": "children:\"只有活动镜像存储中的镜像和容器可见。您的所有其他容器和镜像仍然存在。要再次查看它们，请转到设置关闭此功能。\""
+        },
+        {
+            "original": "children:\"The containerd image store extends the range of image types that the Docker Engine can natively interact with. This unlocks various new use cases, including:\"",
+            "replacement": "children:\"容器镜像存储扩展了Docker引擎可以本机交互的镜像类型范围。这解锁了各种新的用例，包括:\""
+        },
+        {
+            "original": "description:\"Learn how to start building your own Docker Extensions from our DockerCon 2022 talk that walks you through the Docker Extension development process.\"",
+            "replacement": "description:\"从我们的DockerCon 2022讨论中了解如何开始构建自己的Docker扩展，该讨论将引导您完成Docker扩展开发过程。\""
+        },
+        {
+            "original": "description:\"Our documentation walks you through the process of building your own extension. It also provides sample folders with ready-to-go examples.\"",
+            "replacement": "description:\"我们的留档将引导您完成构建自己的扩展程序的过程。它还提供带有现成示例的示例文件夹。\""
+        },
+        {
+            "original": "detail:\"You are about to restart Docker Desktop. A restart stops all running containers. No data will be lost otherwise.\\n\\nDo you want to continue?\"",
+            "replacement": "detail:\"您即将重新启动Docker Desktop。重新启动会停止所有正在运行的容器。否则不会丢失任何数据。\\n\\n你想继续吗？\""
+        },
+        {
+            "original": "children:\"This extension is not published in the Marketplace. Extensions can install binaries, invoke commands and access files on your machine.\"",
+            "replacement": "children:\"此扩展程序未在Marketplace中发布。扩展程序可以在您的机器上安装二进制文件、调用命令和访问文件。\""
+        },
+        {
+            "original": "\"Unable to start walkthrough. An unexpected error occurred. Restart Docker Desktop and try again. If the issue persists, contact support.\"",
+            "replacement": "\"无法开始。发生意外错误。重新启动Docker Desktop并重试。如果问题仍然存在，请联系支持人员。\""
+        },
+        {
+            "original": "children:\"It seems there were some problems when trying to load Desktop Extensions. Please close the window and try again later.\"",
+            "replacement": "children:\"尝试加载桌面扩展时似乎出现了一些问题。请关闭窗口，稍后再试。\""
+        },
+        {
+            "original": "children:\"Regularly checks your configuration to ensure no unexpected changes have been made by another application.\"",
+            "replacement": "children:\"定期检查您的配置，以确保其他应用程序没有进行意外更改。\""
+        },
+        {
+            "original": "description:\"Docker Extensions let you use third-party tools within Docker Desktop to extend its functionality.\"",
+            "replacement": "description:\"Docker扩展允许您使用Docker Desktop中的第三方工具来扩展其功能。\""
+        },
+        {
+            "original": "children:\"Automatically starts SBOM indexing newly built or pulled images, and when an image is inspected.\"",
+            "replacement": "children:\"自动启动SBOM索引新构建或拉取的镜像，以及检查镜像时。\""
+        },
+        {
+            "original": "children:\"Tip: You can also pause the Docker Engine instead of turning it off to free up resources\"",
+            "replacement": "children:\"提示:您也可以暂停Docker引擎而不是关闭它以释放资源\""
+        },
+        {
+            "original": "children:\"Show Docker Desktop Extensions internal containers when using Docker commands.\"",
+            "replacement": "children:\"使用Docker命令时显示Docker Desktop Extension内部容器。\""
+        },
+        {
+            "original": "\"A new version of Docker Desktop is ready to install. Restart Docker Desktop to install.\"",
+            "replacement": "\"新版本的Docker Desktop已准备好安装。重新启动Docker Desktop以进行安装。\""
+        },
+        {
+            "original": "children:[\"The Extensions Marketplace is managed by your organization. See\"",
+            "replacement": "children:[\"扩展市场由您的组织管理。请参阅\""
+        },
+        {
+            "original": "children:\"Docker Engine is the underlying technology that runs containers\"",
+            "replacement": "children:\"Docker Engine是运行容器的底层技术\""
+        },
+        {
+            "original": "label:\"Allow only extensions distributed through the Docker Marketplace\"",
+            "replacement": "label:\"仅允许通过Docker Marketplace分发的扩展\""
+        },
+        {
+            "original": "children:\"Choose file sharing implementation for your containers\"",
+            "replacement": "children:\"为您的容器选择文件共享实现\""
+        },
+        {
+            "original": "\"An unexpected error occurred. Quit Docker Desktop and try again.\"",
+            "replacement": "\"发生意外错误。退出Docker Desktop并重试。\""
+        },
+        {
+            "original": "children:\"Extensions are disabled when using Windows containers\"",
+            "replacement": "children:\"使用Windows容器时禁用扩展\""
+        },
+        {
+            "original": "label:\"Start Docker Desktop when you sign in to your computer\"",
+            "replacement": "label:\"登录计算机时启动Docker Desktop\""
+        },
+        {
+            "original": "alt:\"Screenshot of the Docker Extensions Publishing form\"",
+            "replacement": "alt:\"截图用于Docker扩展发布\""
+        },
+        {
+            "original": "label:\"Open Docker Dashboard when Docker Desktop starts\"",
+            "replacement": "label:\"Docker Desktop启动时打开Docker仪表板\""
+        },
+        {
+            "original": "title:\"Switch to Linux containers to enable Extensions\"",
+            "replacement": "title:\"切换到Linux容器以启用扩展\""
+        },
+        {
+            "original": "label:\"Use containerd for pulling and storing images\"",
+            "replacement": "label:\"使用容器提取和存储镜像\""
+        },
+        {
+            "original": "title:\"Use containerd for pulling and storing images\"",
+            "replacement": "title:\"使用容器提取和存储镜像\""
+        },
+        {
+            "original": "children:\"Ready to be installed. Restart to update.\"",
+            "replacement": "children:\"准备安装。重新启动以更新。\""
+        },
+        {
+            "original": "alt:\"getting started building Docker Extensions\"",
+            "replacement": "alt:\"开始构建Docker扩展\""
+        },
+        {
+            "original": "label:\"Show Docker Extensions system containers\"",
+            "replacement": "label:\"显示Docker扩展系统容器\""
+        },
+        {
+            "original": "\"Failed to store displayRestartDialog option\"",
+            "replacement": "\"无法存储displayRestartDialog选项\""
+        },
+        {
+            "original": "children:\"Choose theme for Docker Desktop\"",
+            "replacement": "children:\"为Docker桌面选择主题\""
+        },
+        {
+            "original": "label:\"Include VM in Time Machine backups\"",
+            "replacement": "label:\"在Time Machine备份中包含虚拟机\""
+        },
+        {
+            "original": "title:\"Unable to connect to Docker Engine\"",
+            "replacement": "title:\"无法连接到Docker引擎\""
+        },
+        {
+            "original": "\"Failed to get displayRestartDialog option\"",
+            "replacement": "\"无法获得displayRestartDialog选项\""
+        },
+        {
+            "original": "label:\"Automatically check configuration\"",
+            "replacement": "label:\"自动检查配置\""
+        },
+        {
+            "original": "title:\"Failed to start the Docker Engine\"",
+            "replacement": "title:\"启动Docker引擎失败\""
+        },
+        {
+            "original": "label:\"Use Enhanced Container Isolation\"",
+            "replacement": "label:\"使用增强的容器隔离\""
+        },
+        {
+            "original": "title:\"Failed to stop the Docker Engine\"",
+            "replacement": "title:\"未能停止Docker引擎\""
+        },
+        {
+            "original": "title:\"Turning off the Docker Engine...\"",
+            "replacement": "title:\"关闭Docker引擎…\""
+        },
+        {
+            "original": "title:\"Waiting for the Docker Engine...\"",
+            "replacement": "title:\"等待Docker引擎…\""
+        },
+        {
+            "original": "label:\"Enable background SBOM indexing\"",
+            "replacement": "label:\"启用后台SBOM索引\""
+        },
+        {
+            "original": "title:\"Enable extensions in Settings\"",
+            "replacement": "title:\"在设置中启用扩展\""
+        },
+        {
+            "original": "children:\"Choose container terminal\"",
+            "replacement": "children:\"选择容器终端\""
+        },
+        {
+            "original": "label:\"Enable Experimental Features\"",
+            "replacement": "label:\"启用实验功能\""
+        },
+        {
+            "original": "title:\"Starting the Docker Engine...\"",
+            "replacement": "title:\"启动Docker引擎…\""
+        },
+        {
+            "original": "children:\"Extensions are disabled\"",
+            "replacement": "children:\"扩展被禁用\""
+        },
+        {
+            "original": "children:\"Features in development\"",
+            "replacement": "children:\"发展中的特点\""
+        },
+        {
+            "original": "children:\"Enable it in Settings.\"",
+            "replacement": "children:\"在设置中启用它。\""
+        },
+        {
+            "original": "context:\"settingsFeaturesControl\"",
+            "replacement": "context:\"设置功能控制\""
+        },
+        {
+            "original": "label:\"Enable Docker Extensions\"",
+            "replacement": "label:\"启用Docker扩展\""
+        },
+        {
+            "original": "label:\"Open Extensions DevTools\"",
+            "replacement": "label:\"开放扩展开发工具\""
+        },
+        {
+            "original": "message:\"Restart Docker Desktop\"",
+            "replacement": "message:\"重新启动Docker桌面\""
+        },
+        {
+            "original": "children:\"Advanced Information\"",
+            "replacement": "children:\"高级信息\""
+        },
+        {
+            "original": "label:\"Features in development\"",
+            "replacement": "label:\"开发中的功能\""
+        },
+        {
+            "original": "title:\"Docker Engine is paused\"",
+            "replacement": "title:\"Docker引擎暂停\""
+        },
+        {
+            "original": "\"Failed to start Docker Desktop\"",
+            "replacement": "\"启动Docker桌面失败\""
+        },
+        {
+            "original": "title:\"Restart Docker Desktop\"",
+            "replacement": "title:\"重启Docker桌面\""
+        },
+        {
+            "original": "label:\"Send usage statistics\"",
+            "replacement": "label:\"发送使用统计信息\""
+        },
+        {
+            "original": "title:\"Docker Engine stopped\"",
+            "replacement": "title:\"Docker引擎停止\""
+        },
+        {
+            "original": "children:\"Check for updates\"",
+            "replacement": "children:\"检查更新\""
+        },
+        {
+            "original": "children:\"Restart to update\"",
+            "replacement": "children:\"重新启动以更新\""
+        },
+        {
+            "original": "label:\"About Docker Desktop\"",
+            "replacement": "label:\"关于Docker桌面\""
+        },
+        {
+            "original": "title:\"About Docker Desktop\"",
+            "replacement": "title:\"关于Docker桌面\""
+        },
+        {
+            "original": "title:\"Quit Docker Desktop?\"",
+            "replacement": "title:\"退出Docker桌面？\""
+        },
+        {
+            "original": "children:\"Cookies Settings\"",
+            "replacement": "children:\"Cookie设置\""
+        },
+        {
+            "original": "children:\"Software updates\"",
+            "replacement": "children:\"软件更新\""
+        },
+        {
+            "original": "context:\"Check for updates\"",
+            "replacement": "context:\"检查更新\""
+        },
+        {
+            "original": "label:\"Quit Docker Desktop\"",
+            "replacement": "label:\"退出Docker桌面\""
+        },
+        {
+            "original": "label:\"Use system settings\"",
+            "replacement": "label:\"使用系统设置\""
+        },
+        {
+            "original": "label:\"Open IPC dev tools\"",
+            "replacement": "label:\"开放IPC开发工具\""
+        },
+        {
+            "original": "label:\"Update and restart\"",
+            "replacement": "label:\"更新并重启\""
+        },
+        {
+            "original": "children:[\"Give feedback\"",
+            "replacement": "children:[\"给出反馈\""
+        },
+        {
+            "original": "children:[\"My Extensions\"",
+            "replacement": "children:[\"我的扩展\""
+        },
+        {
+            "original": "context:\"Containers List\"",
+            "replacement": "context:\"容器列表\""
+        },
+        {
+            "original": "label:\"Check for updates\"",
+            "replacement": "label:\"检查更新\""
+        },
+        {
+            "original": "children:\"Docker Engine\"",
+            "replacement": "children:\"Docker引擎\""
+        },
+        {
+            "original": "children:\"documentation\"",
+            "replacement": "children:\"文档\""
+        },
+        {
+            "original": "children:\"Notifications\"",
+            "replacement": "children:\"通知\""
+        },
+        {
+            "original": "children:[\"Troubleshoot\"",
+            "replacement": "children:[\"疑难解答\""
+        },
+        {
+            "original": "label:\"Software updates\"",
+            "replacement": "label:\"软件更新\""
+        },
+        {
+            "original": "children:[\"Extensions\"",
+            "replacement": "children:[\"扩展\""
+        },
+        {
+            "original": "context:\"Volumes List\"",
+            "replacement": "context:\"卷列表\""
+        },
+        {
+            "original": "label:\"Show CLI hints\"",
+            "replacement": "label:\"显示CLI提示\""
+        },
+        {
+            "original": "title:\"Add Extensions\"",
+            "replacement": "title:\"添加扩展\""
+        },
+        {
+            "original": "children:\"Containers\"",
+            "replacement": "children:\"容器\""
+        },
+        {
+            "original": "children:\"Extensions\"",
+            "replacement": "children:\"扩展\""
+        },
+        {
+            "original": "context:\"Images List\"",
+            "replacement": "context:\"镜像列表\""
+        },
+        {
+            "original": "label:\"Docker Engine\"",
+            "replacement": "label:\"Docker引擎\""
+        },
+        {
+            "original": "label:\"Documentation\"",
+            "replacement": "label:\"文档\""
+        },
+        {
+            "original": "label:\"Give feedback\"",
+            "replacement": "label:\"提供反馈\""
+        },
+        {
+            "original": "label:\"Notifications\"",
+            "replacement": "label:\"通知\""
+        },
+        {
+            "original": "label:\"Open Settings\"",
+            "replacement": "label:\"打开设置\""
+        },
+        {
+            "original": "label:\"SBOM indexing\"",
+            "replacement": "label:\"SBOM索引\""
+        },
+        {
+            "original": "title:\"Documentation\"",
+            "replacement": "title:\"文档\""
+        },
+        {
+            "original": "children:\"Resources\"",
+            "replacement": "children:\"资源\""
+        },
+        {
+            "original": "children:[\"Settings\"",
+            "replacement": "children:[\"设置\""
+        },
+        {
+            "original": "label:\"Troubleshoot\"",
+            "replacement": "label:\"故障排除\""
+        },
+        {
+            "original": "title:\"Troubleshoot\"",
+            "replacement": "title:\"故障排除\""
+        },
+        {
+            "original": "\"Go to the Dashboard\"",
+            "replacement": "\"转到仪表板\""
+        },
+        {
+            "original": "\"Quit Docker Desktop\"",
+            "replacement": "\"退出Docker桌面\""
+        },
+        {
+            "original": "children:\"Restart\"",
+            "replacement": "children:\"重启\""
+        },
+        {
+            "original": "children:\"Volumes\"",
+            "replacement": "children:\"存储卷\""
+        },
+        {
+            "original": "label:\"Containers\"",
+            "replacement": "label:\"容器\""
+        },
+        {
+            "original": "label:\"Extensions\"",
+            "replacement": "label:\"扩展\""
+        },
+        {
+            "original": "label:`Containers`",
+            "replacement": "label:`容器`"
+        },
+        {
+            "original": "label:'Containers'",
+            "replacement": "label:'容器'"
+        },
+        {
+            "original": "title:\"Containers\"",
+            "replacement": "title:\"容器\""
+        },
+        {
+            "original": "title:\"Extensions\"",
+            "replacement": "title:\"扩展\""
+        },
+        {
+            "original": "children:\"Images\"",
+            "replacement": "children:\"镜像\""
+        },
+        {
+            "original": "children:\"Pause\"",
+            "replacement": "children:\"暂停\""
+        },
+        {
+            "original": "label:\"Advanced\"",
+            "replacement": "label:\"高级\""
+        },
+        {
+            "original": "label:\"Builders\"",
+            "replacement": "label:\"构建\""
+        },
+        {
+            "original": "label:\"Settings\"",
+            "replacement": "label:\"设置\""
+        },
+        {
+            "original": "title:\"Settings\"",
+            "replacement": "title:\"设置\""
+        },
+        {
+            "original": "label:\"General\"",
+            "replacement": "label:\"通用\""
+        },
+        {
+            "original": "label:\"Restart\"",
+            "replacement": "label:\"重启\""
+        },
+        {
+            "original": "label:\"Volumes\"",
+            "replacement": "label:\"存储卷\""
+        },
+        {
+            "original": "label:`Volumes`",
+            "replacement": "label:`存储卷`"
+        },
+        {
+            "original": "label:'Volumes'",
+            "replacement": "label:'存储卷'"
+        },
+        {
+            "original": "title:\"Restart\"",
+            "replacement": "title:\"重启\""
+        },
+        {
+            "original": "title:\"Volumes\"",
+            "replacement": "title:\"卷\""
+        },
+        {
+            "original": "label:\"Images\"",
+            "replacement": "label:\"镜像\""
+        },
+        {
+            "original": "label:`Images`",
+            "replacement": "label:`镜像`"
+        },
+        {
+            "original": "label:'Images'",
+            "replacement": "label:'镜像'"
+        },
+        {
+            "original": "title:\"Images\"",
+            "replacement": "title:\"镜像\""
+        }
+    ]
+}
