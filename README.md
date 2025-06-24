@@ -2,11 +2,23 @@
 
 Docker汉化版 DockerDesktop汉化版 Docker Windows汉化版 Docker中文版
 
+## 更新
+由于个人精力问题，无法继续开发该仓库
+如果需要DockerDesktop汉化版请转到
+
+Docker Desktop汉化包
+
+https://github.com/asxez/DockerDesktop-CN.git
+
+Docker汉化脚本
+
+https://github.com/asxez/DDCS.git
+
 ##### 介绍
 
 
 
-> 本项目由本人自行汉化, 且只翻译了一部分, 后续会不断修补
+> 本项目由本人自行汉化, 且只翻译了一部分, ~~后续会不断修补~~
 >
 > 该汉化版本是Docker Desktop 4.28.0 (139021) 版本差太多的话可能出现白屏情况请先做好备份
 
